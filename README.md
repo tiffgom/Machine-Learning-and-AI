@@ -1,7 +1,10 @@
 # Machine-Learning-and-AI
+This is a deep Q-learning algorithm to solve a pathfinding problem. In this Treasure Hunt game, the agent tries to find the optimal path to the treasure in an 8×8 maze. The goal is for the network to have no trouble taking a state and using that state to estimate the Q-values for each action. To train the model I tuned the hyperparameters for epochs to 20 and batch size to 50, and then updated the epsilon value to .2. More specifically I adjusted the model so that the agent explores 10% more before exploiting 80% of the time. Consequently, as the intelligent agent began to win more games and learn how to predict actions that lead to more efficient wins, the exploitation factor increased as aggressive exploration was no longer necessary. As a result, the intelligent agent reached a 100% win-rate at epoch 80, finding the optimal path to the treasure in about 6 minutes.
+
 # Briefly explain the work that you did on this project:
-## What code were you given? 
-## What code did you create yourself?
+To fully implement Deep Q-learning using neural networks to solve the Treasure Hunt Game I contributed the Q-Training Algorithm that completed the pathfinding solution. To begin I examined the existing code to understand the environment, states, and actions. I then proceeded to create code that tells the intelligent agent to either predict their next move based on the Q-table maximum rewards if the game has cycled more than a certain number of times or choose a random valid action. To make sure that the model will not forget the agent’s previous experience and to get accurate Q values, I used replay experience. For the agent to do a good job in the long run, both immediate and future rewards must be taken into account by updating our Q value with the total amount of future rewards that have been discounted. Lastly, the best way for the Deep Q Network to estimate the Q function is for it to learn how to set the network's parameters to get the best Q values. 
+
+
 # Connect your learning from throughout this course to the larger field of computer science:
 ## What do computer scientists do and why does it matter?
 ## How do I approach a problem as a computer scientist?
