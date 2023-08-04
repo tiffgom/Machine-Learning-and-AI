@@ -3,14 +3,13 @@
 
 ![agent wins game](https://user-images.githubusercontent.com/88759442/185298923-69e80e1e-14d3-4495-9940-7bf25a43deb3.jpg)
 
-### Briefly explain the work that you did on this project: 
+### My Work
 To fully implement Deep Q-learning using neural networks to solve the Treasure Hunt Game I contributed the Q-Training Algorithm that completed the pathfinding solution. To begin I examined the existing code to understand the environment, states, and actions. I then proceeded to create code that tells the intelligent agent to either predict their next move based on the Q-table maximum rewards if the game has cycled more than a certain number of times or choose a random valid action. To make sure that the model will not forget the agent’s previous experience and to get accurate Q values, I used replay experience. For the agent to do a good job in the long run, both immediate and future rewards must be taken into account by updating our Q value with the total amount of future rewards that have been discounted. Lastly, the best way for the Deep Q Network to estimate the Q function is for it to learn how to set the network's parameters to get the best Q values. 
 
 
-# Connect your learning from throughout this course to the larger field of computer science:
-### What do computer scientists do and why does it matter?
+### Goal
 As a computer scientist, my goal is to develop ways for solving issues that are not only simple to understand but also valuable to all members of society. Through this course, I was able to broaden my understanding of AI and the role its role in the ever-expanding field of computer science. Through AI, computer scientists are able to surpass human capability in their approach to solving global issues. These solutions are significant because they have an impact on not just developers and their future development of other technologies, but also on scientists, creators, and leading experts in other fields -the users who interact with the technologies. AI is not just integrated in numerous industries, but is also developing life-changing technologies. By the same toke, legislation such as the EU's General Data Protection Regulation (GDPR) protect people and data from bias, exploitation, and misuse.   Still, computer scientists must be aware of how their advances, both morally and socially, affect the world today and in the future.
-### How do I approach a problem as a computer scientist?
+### Approach
 My approach as a computer analyst is to first understand and analyze the problem before attempting a solution. I need to ensure I have identified all the components and have all the information necessary to solve the problem. I also start simple. I consider simple inputs and analyze the output. Then I break down the problem, sometimes by creating subproblems to solve and then connecting the solutions. Checking and understanding the solution is also important especially when trying for optimization.
-### What are my ethical responsibilities to the end user and the organization?
+### Ethical Responsibilities for the User and Organization
 In AI, I must address both design ethics and end-user ethics. That is, I am accountable for the end performance of my product as well as how my built AI is used. I have to ask myself, "Should this product even be designed?" I need to consider constraints and limitations, any biases introduced , and if so, am I being transparent? Testing before a product is accessible to end-users is also my responsibility. Did I adhere to the IEEE's code of ethics during the design process? Did I create a high-quality product that meets all of the requirements? Before delivering a product, it is my responsibility to the end user to thoroughly evaluate and answer these concerns.
